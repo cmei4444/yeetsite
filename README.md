@@ -14,3 +14,10 @@ On Windows:
 py -3 -m venv venv && venv\Scripts\activate
 pip install -r requirements.txt
 ```
+
+## Running the app
+To run the app, execute
+
+```
+python3 app.py
+```
