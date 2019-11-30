@@ -8,7 +8,7 @@ def home_page():
     return app.send_static_file('yeet.html')
 
 @app.route('/yeeting')
-def home_page():
+def yeet_page():
     return app.send_static_file('yeeting.html')
 
 
