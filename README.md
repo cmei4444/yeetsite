@@ -1,4 +1,5 @@
 # yeetsite
+An example web app using Flask.
 
 ## Installation
 Inside your project folder, create and activate a Python virtual environment, and install dependencies:
