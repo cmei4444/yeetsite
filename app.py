@@ -1,11 +1,11 @@
-from flask import Flask
+from flask import Flask, render_template
 import os
 app = Flask(__name__)
 
+
 @app.route('/')
 def home_page():
-    #TODO serve yeet.html
-    return 'yeet this is the home page'
+    return app.send_static_file('yeet.html')
 
 
 if __name__ == '__main__':
