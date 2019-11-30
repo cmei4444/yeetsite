@@ -1,0 +1,15 @@
+button {
+    background-color: azure;
+    color: mediumturquoise;
+}
+button:hover {
+    background-color: gainsboro;
+}
+
+p {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+h1 {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
